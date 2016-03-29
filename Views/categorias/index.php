@@ -16,7 +16,7 @@
         </tr>
     </thead>
     <tbody>
-        <?php if ( $categorias ) : ?>
+        <?php if ( $categorias->num_rows > 0 ) : ?>
             <?php while ( $categoria = $categorias->fetch_object() ) : ?>
                 <tr>
                     <td><?php echo $categoria->id ?></td>

@@ -71,7 +71,7 @@ class FilmeModel extends Model {
         // Prepare SQL para receber parametros
         $stmt = $this->db->prepare(
             'INSERT INTO filmes (categoria_id, titulo)
-                  VALUES (?,?)'
+                    VALUES (?,?)'
         );
         
         // Proteger contra SQL Injection

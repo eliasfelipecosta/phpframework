@@ -18,7 +18,7 @@
         </tr>
     </thead>
     <tbody>
-        <?php if ( $clientes ) : ?>
+        <?php if ( $clientes->num_rows > 0 ) : ?>
             <?php while ( $cliente = $clientes->fetch_object() ) : ?>
                 <tr>
                     <td><?php echo $cliente->id ?></td>

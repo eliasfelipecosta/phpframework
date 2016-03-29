@@ -6,8 +6,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Sistema de Cadastro de Filmes</title>
 
-        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="<?php echo HOME_URL; ?>Views/layout/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="<?php echo HOME_URL; ?>Views/layout/css/estilos.css">
+        
+        <script type="text/javascript" src="<?php echo HOME_URL; ?>Views/layout/js/jquery.min.js"></script>
+        <script type="text/javascript"  src="<?php echo HOME_URL; ?>Views/layout/js/bootstrap.min.js"></script>
     </head>
     <body>
         <div class="container">

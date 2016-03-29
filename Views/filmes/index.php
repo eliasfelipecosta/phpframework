@@ -17,7 +17,7 @@
         </tr>
     </thead>
     <tbody>
-        <?php if ( $filmes ) : ?>
+        <?php if ( $filmes->num_rows > 0 ) : ?>
             <?php while ( $filme = $filmes->fetch_object() ) : ?>
                 <tr>
                     <td><?php echo $filme->id ?></td>
