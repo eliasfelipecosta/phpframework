@@ -15,12 +15,12 @@ class AplicacaoController extends Controller {
     
     // Antes de processar a requisição
     public function antes() {
-        if (! isset($_SESSION['usuario_logado'])) {
-            header('Location: ' . HOME_URL . 'login');
+        if ( ! isset( $_SESSION['usuario_logado'] ) ) {
+            header( 'Location: ' . HOME_URL . 'login' );
             die();
         }
     }
-    
+
     // Depois de processar a requisição
     public function depois() {
     }
