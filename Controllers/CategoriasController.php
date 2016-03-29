@@ -5,7 +5,7 @@
 
 namespace Controllers;
 
-use Classes\Controller;
+use Controllers\AplicacaoController;
 use Models\CategoriaModel;
 
 class CategoriasController extends AplicacaoController {
