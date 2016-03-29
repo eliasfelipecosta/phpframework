@@ -1,3 +1,7 @@
+CREATE DATABASE `locadora`;
+
+USE `locadora`;
+
 # Dump da tabela categorias
 # ------------------------------------------------------------
 DROP TABLE IF EXISTS `categorias`;
